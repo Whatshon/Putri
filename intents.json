@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "yo", "what's up", "how is it going?"],
+      "responses": ["Hello! How can I help you today?", "Hi there! How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later"],
+      "responses": ["Goodbye! Have a nice day.", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "thanks a lot"],
+      "responses": ["You're welcome!", "No problem!"]
+    },
+    {
+      "tag" : "name",
+      "patterns" : ["what is your name?" ,"can i know your name?","may i know your name?"],
+      "responses" : ["Im Putri, your assistant", "Im Putri, nice too meet you"]
+    }
+  ]
+}
